@@ -1,0 +1,217 @@
+a {
+    text-decoration: none !important;
+    border: none !important;
+    list-style: none !important;
+}
+a:hover {
+    text-decoration: none !important;
+    border: none !important;
+    list-style: none !important;
+}
+body {
+    background-color: #fff !important;
+    background: none !important;
+}
+ul.page-numbers{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+ul.page-numbers li{
+    float: left;
+    padding-left: 1%;
+}
+ul.page-numbers li:first-child{
+    padding-left: 0;
+}
+.nav-item-link:last-child {
+    padding-right: 0;
+}
+.post-categories {
+    padding: 0;
+}
+.navigation.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    width: 160px;
+    height: 50px;
+}
+.news-scroll {
+    padding: 13px 0 13px 0;
+    font-size: 16px;
+}
+.news-scroll a {
+    text-decoration: none;
+}
+.dot{
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(207,23,23);
+    border-radius: 50%;
+    display: inline-block;
+}
+.slider-item {
+    height: 70vh;
+    position: relative;
+}
+
+
+/* .course-item-wrapper {
+    height: 500px;
+} */
+.course-item-details-link {
+    border: 1px solid #1B75B8 !important;
+}
+/* .course-item-wrapper-position{
+    position: relative;
+}
+.course-item-details-link {
+    position: absolute;
+    width: 85%;
+    bottom: 10%;
+} */
+.courses-item-content .title {
+    height: 40px;
+}
+.courses-item-image img {
+    height: 250px;
+    border: 5px solid #1B75B8;
+}
+.course-item-wrapper:hover{
+    transform: scale(1.10);
+}
+
+
+
+.o_colored_level img.custom-image-mfs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.o_colored_level .h5-custom-tittle {
+    text-align: center;
+}
+
+
+
+.footer-item-wrapper .footer-email {
+    font-size: 14px;
+}
+
+.footer-item-wrapper .footer-logo img {
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+
+
+
+.nav-item-link, .submenu-list-item-link{
+    font-weight: bolder;
+}
+
+
+.price.free_english_spoken_class{
+    font-size: 16px;
+}
+
+
+.course-details-description li{
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.menu-item-has-children .nav-item-link
+{
+  padding-right: 0;
+}
+
+
+
+
+
+/* ninja form  */
+.nf-form-title {
+    text-align: center !important;
+  }
+  .submit-container {
+    text-align: center !important;
+    margin-bottom: 60px !important;
+    margin-top: 30px !important;
+  }
+  .submit-wrap {
+    text-align: center !important;
+    margin-bottom: 60px !important;
+    margin-top: 30px !important;
+  }
+  .nf-response-msg {
+    text-align: center !important;
+  }
+  .ninja-forms-req-symbol {
+      display: none;
+    }
+  .nf-form-fields-required {
+      display: none;
+    }
+    div#nf-field-4-wrap {
+      text-align: center;
+    }
+  .nf-field-container {
+    margin-bottom: 10px !important;
+  }
+  /* .ninja-forms-field {
+      border-radius: 10px !important;
+  } */
+  .nf-form-errors {
+    display: none;
+  }
+  #nf-field-4 {
+    border-radius: 10px !important;
+  }
+  
+  .homepage_contact_form .nf-response-msg{
+    color: #fff;
+  }
+  
+  /* .nf-form-content {
+    max-width: 700px !important;
+    margin-left: 0 !important;
+  } */
+  
+  /* #nf-field-4 {
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    width: 160px !important;
+    height: 50px !important;
+  } */
+  
+  
+  .wpcf7-form-control.wpcf7-date.wpcf7-validates-as-required.wpcf7-validates-as-date {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-radius: 2px;
+  }
+  .wpcf7-form-control {
+    border-color: #6EC1E4 !important;
+  }
+  .wpcf7-spinner {
+    display: none;
+  }
+  
+  .nf-error-msg, .nf-error-msg.nf-error-required-error{
+    display: none !important;
+  }
+  
+  
+  /* ninja form ends */
